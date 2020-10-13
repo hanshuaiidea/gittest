@@ -13,7 +13,7 @@
 			<!--就需要在他的pom文件中新建一个dependency节点，将本项目的groupId、artifactId、version写入， maven就会把你上传的jar包下载到他的本地 -->  
 			<groupId>junit</groupId>  
 			<artifactId>junit</artifactId>  
-			<version>4.0</version>  
+			<version>4.13.1</version>  
 			<!-- maven认为，程序对外部的依赖会随着程序的所处阶段和应用场景而变化，所以maven中的依赖关系有作用域(scope)的限制。 -->  
 			<!--scope包含如下的取值：compile（编译范围）、provided（已提供范围）、runtime（运行时范围）、test（测试范围）、system（系统范围） -->  
 			<scope>test</scope>  
